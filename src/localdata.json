@@ -1,0 +1,66 @@
+[
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "www-google-com",
+      "type": "wesb"
+    }
+  },
+  {
+    "targets": ["www.nim.rz"],
+    "labels": {
+      "job": "ping",
+      "name": "www-nim-rz",
+      "type": "web"
+    }
+  },
+  {
+    "targets": ["www.ktt.kg"],
+    "labels": {
+      "job": "ping",
+      "name": "www-ktt-kg",
+      "type": "web"
+    }
+  },
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "test_windows_server",
+      "type": "server"
+    }
+  },
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "ASssTS",
+      "type": "server"
+    }
+  },
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "moiserver",
+      "type": "server"
+    }
+  },
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "moiserver",
+      "type": "server"
+    }
+  },
+  {
+    "targets": ["8.8.8.8"],
+    "labels": {
+      "job": "ping",
+      "name": "moiserver2",
+      "type": "server"
+    }
+  }
+]

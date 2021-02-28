@@ -1,0 +1,25 @@
+.clock {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+  color: white;
+}
+
+.navbar {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-left: 15px;
+  height: 5%;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

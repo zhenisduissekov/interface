@@ -1,0 +1,52 @@
+.App {
+  display: grid;
+
+  grid-template-areas:
+    "h h"
+    "c c"
+    "f f";
+  grid-template-rows: 60px 4fr 1fr;
+  grid-template-columns: 1fr 10fr;
+}
+
+.App_header {
+  grid-area: h;
+  background-color: red;
+}
+
+.App-content.active {
+  grid-area: c;
+  background-color: rgb(131, 129, 129);
+  transition: 1050ms;
+}
+
+.App_content {
+  grid-area: c;
+  background-color: white;
+  /* transition: 1050ms; */
+}
+
+.App_footer {
+  grid-area: f;
+  background-color: gray;
+}
+
+.App_nav_menu {
+  grid-area: n;
+  /* background-color: gray; */
+  width: 250px;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 60px;
+  left: -300px;
+  transition: 1050ms;
+}
+
+.App_nav_menu.active {
+  grid-area: n;
+  left: 0;
+  transition: 750ms;
+  /* background-color: purple; */
+}

@@ -1,0 +1,15 @@
+.nav_menu_items {
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+  text-align: left;
+}
+
+.nav_text:hover {
+  background-color: yellow;
+}
+
+.nav_menu {
+  text-align: center;
+  color: blue;
+}
